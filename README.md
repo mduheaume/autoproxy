@@ -36,6 +36,6 @@ requests for `bar.domain.com` will be proxied to the `bar` container.
 
 You can supply as many linked containers as you like. The autoproxy container 
 will automatically proxy requests to linked containers that expose port 80 by 
-matching the subdomain in the request's host header to the containers link 
+matching the subdomain in the request's host header to the container's link 
 alias.
 
